@@ -18,3 +18,24 @@ You should see the coordinates being printed in the console, and the species "si
 
 
 [![DEMO](https://img.youtube.com/vi/hB7lwn8-2sc/0.jpg)](https://www.youtube.com/watch?v=hB7lwn8-2sc)
+
+
+### Extra
+
+---
+
+More information on Gama Operations: [https://gama-platform.org/wiki/OperatorsAA#strings-related-operators](https://gama-platform.org/wiki/OperatorsAA#strings-related-operators)
+
+More information on how to parse messages in GAMA:
+
+`message`
+
+- Definition: a datatype containing a message (sent during a communication, such as the one sent/received in a FIPA interaction).
+- Built-in attributes:
+    - `contents` (type = unknown): the contents of this message, as a list of arbitrary objects
+    - `sender` (type = unknown): the sender that has sent this message
+    - `unread` (type = bool): whether this message is unread or not
+    - `emission_timestamp` (type = int): the emission time stamp of this message (i.e. at what cycle it has been emitted)
+    - `recention_timestamp` (type = int): the reception time stamp of this message (i.e. at what cycle it has been received)
+
+
